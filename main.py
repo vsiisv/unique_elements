@@ -1,6 +1,5 @@
 def unique_elements_in_list(list_of_elements):
-    unique_elements = set(list_of_elements)
-    return len(unique_elements)
+    return len(set(list_of_elements))
 
 
 list_of_random_numbers = [4, 8, 15, 16, 23, 42, 4, 8, 15, 16, 23, 42]
